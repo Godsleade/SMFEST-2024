@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 40px;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/Screenshot\ 2024-08-11\ 075229.jpg);
+    animation-name: background-img;
+    animation-duration: 30s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 70px; 
+  }
+
+
+@keyframes background-img{
+    0%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hq720\ \(1\).jpg); 
+        }
+    25%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/2024-07-27\ \(1\).jpg);  
+        }
+    50%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/Screenshot\ 2024-08-11\ 075131.jpg);
+        }
+    75%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/Screenshot\ 2024-08-11\ 075205.jpg);
+        }  
+   
+}
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-nav li{
+    padding-left: 20px;
+    
+    
+    
+}
+.nav-item .active{
+    color: #F04C35 !important;
+}
+.nav-item a{
+    
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-item a:hover{
+    color: #F04C35 !important;
+    
+}
+.navbar-toggler{
+   box-shadow: none !important;
+   border: none !important;
+  
+
+}
+button .navbar-toggler-icon{
+    color: white;
+    background-color: white;
+    
+    
+}
+.navlogo{
+    
+}
+
+.navlinks {
+    
+    
+    
+}
+
+/* ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+        
+}
+
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    
+}
+.home a{
+    color: #F04C35;
+}
+li a:hover{
+    color: #F04C35;
+} */
+.navsearch {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.navsponsor{
+    background-image: radial-gradient(#FA4A3A, #E1296F);
+    text-align: center;
+    padding: 14px 38px;
+    
+    
+}
+.navsponsor{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* box-shadow: none; */
+    width: 60%;
+    border: none;
+
+}
+
+.navsponsor:hover span {
+    display: none
+  }
+  
+.navsponsor:hover:before {
+    content: "REGISTER"
+  }
+
+
+    
+    
+
+
+
+/* @font-face{
+    font-family: Square721 BT Bold;
+    src: url(C:\Users\user\Desktop\IGWE'S CLASS\SMFEST24\font);
+} */
+.event_caption{
+    font-family: "Clash Display";
+    color: white;
+    text-align: center;
+    
+    
+}
+.event_caption h6{
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+.event_caption h1{
+    font-family: "Clash Display";
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    }
+
+@media (max-width: 400px){
+    .event_caption h1{
+       font-size: 80px;
+       text-align: center;
+        
+ 
+}   
+    
+}
+.event_caption p{
+    font-size: 15px;
+}
+.tick{
+    padding-right: 50px;
+}
+.event_ticket{
+    font-family: "Clash Display", montserrat black;
+    padding-top: 40px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.event_ticket a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.ticket{
+    padding: 13px 20px;
+    border: 1px solid #08003C;
+    /* margin-right: 50px; */
+    margin-left: auto;
+}
+.ticket:hover{
+    color: #08003C;
+}
+
+.event_ticket .play_btn{
+    
+    height: 50px;
+    width: 50px; 
+    border-radius: 50%;
+    border: 1px solid #08003C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event_ticket .play_btn img{
+    height: 20px;
+    width: 20px;
+   
+}
+
+.sponsor{
+    margin-left: 50px;
+}
+
+
+
+main{
+    background-color:#08003C;
+    height: 400vh;
+    color: white;
+    padding-top: 70px;
+    
+}
+.main_section{
+    /* border: 1px solid white; */
+}
+.event_people_info{
+    font-family: "Clash Display";
+    justify-content: center;
+    
+    /* border: 1px solid white; */
+    gap: 35px;
+}
+.event_people_info h1{
+    color: #EE2F5B;
+    font-size: 65px;
+    /* font-weight: bold; */
+}
+.attendees, .small_business, .cities, .volunteers, .small_business{
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 20px;
+    width: 21%;
+    height: 180px;
+}
+
+.small_business{
+    /* border: 1px solid white;
+    text-align: center;
+    padding-top: 20px;
+    width: 23%; */
+}
+.cities{
+    /* border: 1px solid white;
+    text-align: center;
+    padding-top: 20px;
+    width: 23%; */
+}
+.volunteers{
+    position: relative;
+    border: 1px solid white;
+}
+.plus{
+    position: absolute;
+    right: 65px;
+    top: 30px;
+
+}
+section{
+    padding-top: 280px;
+}
+.about_smfest{
+    font-family: "Clash Display";
+    padding-left: 30px;
+    padding-top: 80px;
+}
+.about_smfest h6{
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: #EE2F5B;
+}
+.about_smfest h1{
+     font-weight: bolder;
+     font-size: 60px;
+}
+.about_smfest p{
+     font-size: 19px;
+    
+}
+.read-more{
+    margin-top: 70px;
+    /* padding: 20px 50px; */
+    background-color: #08003C;;
+    border: 2px solid white;
+    color: white;
+    height: 60px;
+    width: 30%;
+}
+.read-more:hover span{
+    display: none;
+
+}
+  
+.read-more:hover:before {
+    content: "READ MORE";
+    background-image: radial-gradient(#FA4A3A, #E1296F);
+    /* height: 60px;
+    width: 30%; */
+    padding: 20px 40px;
+    
+
+}
+.border_img{
+    border:5px solid#E1296F;
+    border-radius: 20px;
+    height: 110vh;
+    /* margin-right: 30px; */
+    width: 45%;
+    position: relative;
+    margin-left: 30px;
+}
+.img_people{
+    position: absolute;
+    left: -25px;
+    top: 30px;
+    height: 690px;
+    width: 600px;
+}
+.fourth_years{
+    position: absolute;
+    font-family: "Clash Display";
+    border: 1px solid white;
+    text-align: center;
+    width: 35%;
+    height: 200px;
+    background-color: #101010;
+    bottom: 20px;
+    right: -60px;
+    
+}
+
+.fourth_years h1{
+    font-weight: bolder;
+    font-size: 80px;
+    position: relative;
+}
+.fourth_years p{
+    color: #EE2F5B;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.fourth_years h6{
+    color:white;
+    font-size: 25px;
+    
+}
+aside{
+    padding-top: 280px;
+}
